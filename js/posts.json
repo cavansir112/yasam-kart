@@ -1,0 +1,258 @@
+let data = [{
+  name: "KFC",
+  id: 1,
+  img: "img/foto11.jpg",
+  sayt: "http://www.kfc-az.com/",
+  saytName: "kfc-az.com",
+  percent: 15
+},
+
+{
+  name: "Mcdonalds",
+  id: 2,
+  img: "img/foto12.jpg",
+  sayt: "http://www.mcdonalds.az/",
+  saytName: "mcdonalds.az",
+  percent: 8
+},
+
+{
+  name: "Şhaurma",
+  id: 3,
+  img: "img/foto6.png",
+  sayt: "http://shaurma.az/karyera/",
+  saytName: "shaurma.az",
+  percent: 13
+},
+
+{
+  name: "Bulud",
+  id: 4,
+  img: "img/foto50.jpg",
+  sayt: "https://www.restorantz.com/en/baku/bulud-restaurant-lounge-nizami",
+  saytName: "bulud.az",
+  percent: 22
+},
+
+{
+  name: "Dadım",
+  id: 5,
+  img: "img/foto37.jpg",
+  sayt: "https://pizza.az/",
+  saytName: "dadim.az",
+  percent: 20
+},
+
+{
+  name: "Tblisi",
+  id: 6,
+  img: "img/foto38.jpeg",
+  sayt: "https://www.tripadvisor.ru/Restaurants-g294195-Tbilisi.html/",
+  saytName: "tblisi.az",
+  percent: 10
+},
+
+{
+  name: "Tavada",
+  id: 7,
+  img: "img/foto39.jpg",
+  sayt: "http://www.1news.az/news/v-serdce-baku-torzhestvenno-otkrylis-otel-theatrum-i-restoran-tavada---foto-video",
+  saytName: "tavada.az",
+  percent: 27
+},
+
+{
+  name: "City soul",
+  id: 8,
+  img: "img/foto40.jpg",
+  sayt: "http://1news.az/news/tastestartshere-v-baku-otkrylsya-restoran-yuzhno-evropeyskoy-kuhni-city-soul---foto-video",
+  saytName: "city-soul.az",
+  percent: 25
+},
+
+]
+
+let data2 = [{
+name: "Cinemaplus",
+id: 1,
+img: "img/foto22 (2).jpg",
+sayt: "https://www.cinemaplus.az/ru/",
+saytName: "cinemaplus.az",
+percent: 15
+},
+
+{
+name: "Baku karting",
+id: 2,
+img: "img/foto20.jpg",
+sayt: "www.baku-karting.az/az/",
+saytName: "baku-karting.az",
+percent: 8
+},
+
+{
+name: "Megafun",
+id: 3,
+img: "img/foto13.jpg",
+sayt: "http://megafun.az/products",
+saytName: "megafun.az",
+percent: 13
+},
+
+{
+name: "B-Ə-M",
+id: 4,
+img: "img/foto41.jpg",
+sayt: "https://www.bem.az/kampaniyalar/",
+saytName: "bem.az",
+percent: 20
+},
+
+{
+name: "Madagascar",
+id: 4,
+img: "img/foto42.jpg",
+sayt: "http://artist.az/artist/biz-plus-madagascar/",
+saytName: "madagascar.az",
+percent: 18
+},
+
+{
+  name: "Af hotel",
+  id: 4,
+  img: "img/foto43.jpg",
+  sayt: "https://www.afhotel.az/ru/afhotel",
+  saytName: "afhotel.az",
+  percent: 22
+},
+
+{
+  name: "Turizim",
+  id: 4,
+  img: "img/foto44.jpg",
+  sayt: "",
+  saytName: "turizim.az",
+  percent: 15
+},
+
+{
+  name: "Sports cafe",
+  id: 4,
+  img: "img/foto45.jpg",
+  sayt: "http://sportscafe.az/parkbulvar/",
+  saytName: "sportscafe.az",
+  percent: 19
+}
+
+
+]
+
+let data3 = [{
+name: "MGstore",
+id: 1,
+img: "img/foto21.jpg",
+sayt: "https://mgstore.az/",
+saytName: "mgstore.az",
+percent: 15
+},
+
+{
+name: "X-lady",
+id: 2,
+img: "img/foto14.jpg",
+sayt: "http://x-lady.az/",
+saytName: "x-lady.az",
+percent: 8
+},
+
+{
+name: "Kontakt",
+id: 3,
+img: "img/foto15.jpg",
+sayt: "https://kontakt.az/",
+saytName: "kontakt.az",
+percent: 13
+},
+
+{
+name: "Newyorker",
+id: 4,
+img: "img/foto19.jpg",
+sayt: "https://www.newyorker.de/az/lifestyle/",
+saytName: "newyorker.de/az",
+percent: 22
+},
+
+{
+name: "Maxi",
+id: 5,
+img: "img/foto23.jpg",
+sayt: "https://maxi.az/",
+saytName: "maxi.az",
+percent: 20
+},
+
+{
+name: "Ehome",
+id: 6,
+img: "img/foto24.jpg",
+sayt: "http://ehome.az/?gclid=EAIaIQobChMI_P23yIeT4gIV1eJ3Ch0Wcw5VEAAYASAAEgJopPD_BwE",
+saytName: "ehome.az",
+percent: 10
+},
+
+{
+name: "Flower",
+id: 7,
+img: "img/foto17.jpg",
+sayt: "https://Flower.az/",
+saytName: "flower.az",
+percent: 20
+},
+
+{
+name: "Alldey",
+id: 8,
+img: "img/foto26.jpg",
+sayt: "http://x-lady.az/",
+saytName: "alldey.az",
+percent: 25
+},
+
+{
+name: "Ideal",
+id: 9,
+img: "img/foto46.jpg",
+sayt: "http://www.ideal.az/",
+saytName: "ideal.az",
+percent: 21
+},
+
+{
+name: "Libraff",
+id: 12,
+img: "img/foto47.jpg",
+sayt: "http://www.libraff.az/az/",
+saytName: "libraff.az",
+percent: 8
+},
+
+{
+name: "Şhop.az",
+id: 11,
+img: "img/foto48.jpg",
+sayt: "https://shop.az/?gglsearch&gclid=Cj0KCQjwjMfoBRDDARIsAMUjNZqPtbg20dYCZXmbFyNoxw5VW6v3bgs5ipWXaKG3Wl2PRcx9ktPuLRsaAk7tEALw_wcB",
+saytName: "shop.az",
+percent: 24
+},
+
+{
+name: "Karaca",
+id: 12,
+img: "img/foto49.jpg",
+sayt: "https://www.krc.com.tr/",
+saytName: "karaca.az",
+percent: 22
+},
+
+]

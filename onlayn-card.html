@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="wowcss/wow.css">
+    <script src="js/posts.json"></script>
+</head>
+<body>
+
+    <!-- ================ home-page ================ -->
+
+    <div class="home-page">
+        <div class="obasity-bacgraund"></div>
+        <div class="home-section">
+            <div class="right-menu-mobile">
+                <i id="removeMenu" class="fas fa-times"></i>
+
+                <ul>
+                    <li><a href="./onlayn-card.html">Kart əldə etmək</a></li>
+                    <li><a href="./about.html">Partnyor  ol</a></li>
+                    <li><a href="./Partnier.html">Partnyorlarımız</a></li>
+                    <li><a href="./about us.html">Haqqımızda</a></li>
+                    <li><a href="./contact.html">Əlqə</a></li>
+                </ul>
+
+                <div class="katagoria">
+                    <a class="catagories">CATEGORIES</a>
+                </div>
+
+            <div class="left-footer">
+                <div class="d-flex mb-2 justify-content-center">
+                    <div class="select-icon">
+                        <select name="" id="select">
+                            <option value="">AZN</option>
+                            <option value="">RUS</option>
+                            <option value="">ENG</option>
+                        </select>
+                        <i id="down-icons" class="fas fa-chevron-down"></i>
+                    </div>
+                    <a class="adress" href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="adress" href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <a class="mail-adress" href="">Yaşamkart01@mail.com</a>
+                <p class="Copyright-name">Copyright © 2019 Cavanşir <br> Muradov | IT Step Academy</p>               
+            </div>
+
+            </div>
+
+            <div class="layer"></div>
+
+            <!-- ================ left-menu ================ -->
+
+            <div class="left-menu wow fadeIn">
+                <a href="./index.html">
+                    <div class="position-relative logo-img flash wow">
+                        <img id="jkcnf" src="img/fotot.3.png" alt="">
+                        <div class="logo">
+                            <h6>YAŞAM</h6>
+                            <P>KART</P>
+                        </div>
+                    </div>
+                </a>
+                <ul>
+                    <li><a href="./onlayn-card.html">Kart əldə etmək</a></li>
+                    <li><a href="./about.html">Partnyor  ol</a></li>
+                    <li><a href="./Partnier.html">Partnyorlarımız</a></li>
+                    <li><a href="./about us.html">Haqqımızda</a></li>
+                    <li><a href="./contact.html">Əlqə</a></li>
+                </ul>
+
+                <div class="katagoria">
+                    <a class="catagories">CATEGORIES</a>
+                </div>
+
+                <div class="left-footer">
+                    <div class="d-flex mb-2 justify-content-center">
+                        <div class="select-icon">
+                            <select name="" id="select">
+                                <option value="">AZN</option>
+                                <option value="">RUS</option>
+                                <option value="">ENG</option>
+                            </select>
+                            <i id="down-icons" class="fas fa-chevron-down"></i>
+                        </div>
+                        <a class="adress" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="adress" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <a class="mail-adress" href="">Yaşamkart01@mail.com</a>
+                    <p class="Copyright-name">Copyright © 2019 Cavanşir <br> Muradov | IT Step Academy</p>
+                </div>
+            </div>
+
+            <!-- ================ //left-menu ================ -->
+
+            <!-- ================ onlayn-card ================ -->
+            <div class="optain-layer"></div>
+            <div id="optain-section1" class="optain-section">
+                <div class="optain-popap">
+                    <form id="form" action="">
+                        <div class="d-flex justify-content-between align-items-center cardss">
+                            <div class="card-name">
+                                <h3>Kartın növü</h3>
+                                <h4>Sadə kart</h4>
+                            </div>
+                            <div class="remove-popap ">
+                                <i class="fas fa-times"></i>                        
+                            </div>
+                        </div>
+                        <div class=" popap-name ">
+                            <div class="w-100">
+                                <p>Ad</p>
+                                <input class=" input-popap" type="text" name="name" required>
+                            </div>
+                            <div class="w-100">
+                                <p class="ml-2">Email</p>
+                                <input class="ml-2 input-popap" type="email" name="Email" required>
+                            </div>
+                        </div>
+                        <div class="d-flex popap-name ">
+                            <div class="w-100">
+                                <p>Kartınızın nömresi</p>
+                                <input class=" input-popap" type="number" name="name" required>
+                            </div>
+                            <div class="w-100">
+                                <p class="ml-2">Ünvan</p>
+                                <input class="ml-2 input-popap" type="text" name="tel" required>
+                            </div>
+                        </div>
+                        <div class="d-flex popap-name ">
+                            <div class="w-100">
+                                <p>Poçtun kodu</p>
+                                <input class=" input-popap" type="number" name="number" required>
+                            </div>
+                            <div class="w-100">
+                                <p class="ml-2">Telefon</p>
+                                <input class="ml-2 input-popap" type="number" name="tel" required>
+                            </div>
+                        </div>
+                        <p>Kartın müddeti</p>
+                        <select id="simple" name="" class="select-popap">
+                                <option value="10">10 Gün</option>
+                                <option value="1">1 Ay</option>
+                        </select>
+                        <div class="d-flex justify-content-between align-items-center mt-4">
+                            <div class="">
+                                <h6>Ödəyəcəyiniz məbləğ</h6>
+                                <h4 id="simpleh1">20 AZN</h4>
+                            </div>
+                            <button class="option">Əldə et</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div id="optain-section2" class="optain-section">
+                <div class="optain-popap">
+                    <form id="form" action="">
+                        <div class="d-flex justify-content-between align-items-center cardss">
+                             <div class="card-name">
+                                <h3>Kartın növü</h3>
+                                <h4>Gümüş  kart</h4>
+                            </div>
+                            <div class="remove-popap ">
+                                <i class="fas fa-times"></i>                        
+                            </div>
+                        </div>
+                        <div class=" popap-name ">
+                            <div class="w-100">
+                                <p>Ad</p>
+                                <input class=" input-popap" type="text" name="name" required>
+                            </div>
+                            <div class="w-100">
+                                <p class="ml-2">Email</p>
+                                <input class="ml-2 input-popap" type="email" name="Email" required>
+                            </div>
+                        </div>
+                        <div class=" popap-name ">
+                            <div class="w-100">
+                                <p>Kartınızın nömresi</p>
+                                <input class=" input-popap" type="number" name="name" required>
+                            </div>
+                            <div class="w-100">
+                                <p class="ml-2">Ünvan</p>
+                                <input class="ml-2 input-popap" type="text" name="tel" required>
+                            </div>
+                        </div>
+                        <div class=" popap-name ">
+                            <div class="w-100">
+                                <p>Poçtun kodu</p>
+                                <input class=" input-popap" type="number" name="number" required>
+                            </div>
+                            <div class="w-100">
+                                <p class="ml-2">Telefon</p>
+                                <input class="ml-2 input-popap" type="number" name="tel" required>
+                            </div>
+                        </div>
+                        <div class="">
+                            <p>Kartın müddeti</p>
+                            <select id="silver" name="" class="select-popap w-80">
+                                <option value="10">10 Gün</option>
+                                <option value="1">1 Ay</option>
+                                <option value="1-il">1 il</option>
+                            </select>
+                        </div>
+
+                        <div class="">
+                            <p>Ödəmə növü</p>
+                            <select id="silver1" name="" class="select-popap w-80 select-displed" disabled>
+                                <option value="10">Nəğd ödəniş</option>
+                                <option value="1">Aylıq ödəniş</option>
+                            </select>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-4">
+                        <div class="">
+                                <h6>Ödəyəcəyiniz məbləğ</h6>
+                                <h5 id="silverh1">20 AZN</h5>
+                            </div>
+                            <button >Əldə et</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div id="optain-section3" class="optain-section">
+                <div class="optain-popap">
+                        <div class="d-flex justify-content-between align-items-center cardss">
+                             <div class="card-name">
+                                <h3>Kartın növü</h3>
+                                <h4>Qızıl kart</h4>
+                            </div>
+                            <div class="remove-popap ">
+                                <i class="fas fa-times"></i>                        
+                            </div>
+                        </div>
+                        <div class=" popap-name ">
+                            <div class="w-100">
+                                <p>Ad</p>
+                                <input class=" input-popap" type="text" name="name" required>
+                                <p class="c-text" id="c-text1">xanani doldurun</p>
+
+                            </div>
+                            <div class="w-100">
+                                <p class="ml-2">Email</p>
+                                <input class="ml-2 input-popap" type="email" name="Email" required>
+                                <p class="c-text" id="c-text1">xanani doldurun</p>
+                            </div>
+                        </div>
+                        <div class=" popap-name ">
+                            <div class="w-100">
+                                <p>Kartınızın nömresi</p>
+                                <input class=" input-popap" type="number" name="name" required>
+                                <p class="c-text" id="c-text1">xanani doldurun</p>                                
+                            </div>
+                            <div class="w-100">
+                                <p class="ml-2">Ünvan</p>
+                                <input class="ml-2 input-popap" type="text" name="tel" required>
+                                <p class="c-text" id="c-text1">xanani doldurun</p>
+                            </div>
+                        </div>
+                        <div class=" popap-name ">
+                            <div class="w-100">
+                                <p>Poçtun kodu</p>
+                                <input class=" input-popap" type="number" name="number" required>
+                                <p class="c-text" id="c-text1">xanani doldurun</p>
+                            </div>
+                            <div class="w-100">
+                                <p class="ml-2">Telefon</p>
+                                <input class="ml-2 input-popap" type="number" name="tel" required>
+                                <p class="c-text" id="c-text1">xanani doldurun</p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <p>Kartın müddeti</p>
+                            <select id="gold" name="" class="select-popap w-80">
+                                <option value="1">1 Ay</option>
+                                <option value="1-il">1 il</option>
+                                <option value="3-il">3 il</option>
+                            </select>
+                        </div>
+
+                        <div class="">
+                            <p>Ödəmə növü</p>
+                            <select id="gold1" name="" class="select-popap w-80 select-displed" disabled>
+                                <option value="10">Nəğd ödəniş</option>
+                                <option value="1">Aylıq ödəniş</option>
+                            </select>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-4">
+                            <div class="">
+                                <h6>Ödəyəcəyiniz məbləğ</h6>
+                                <h5 id="goldh1">50 AZN</h5>
+                            </div>
+                            <button >Əldə et</button>
+                        </div>
+                    <div id="popap1" class="popap">
+                        <div class="d-flex w-100 h-100 justify-content-center align-items-center">
+                            <div class="popap-text">
+                                Əməliyyat tamamlandı <br>
+                                kartınızı 7 gün ərzində əldə edəcəksiniz
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="onlayn-card">
+                <div class="mobile-section">
+                    <a href="./index.html">
+                        <div class="position-relative logo-img">
+                            <img  src="img/fotot.3.png" alt="">
+                            <div class="logo">
+                                <h6>YAŞAM</h6>
+                                <P>KART</P>
+                            </div>
+                        </div>
+                    </a>
+
+                    <i id="openMenu" class="fas fa-bars"></i>
+                </div>
+                <div class="card-section  wow fadeInDown">
+                    <div class="flip-card-container " style="--hue: 220">
+                        <div class="flip-card">
+        
+                            <div class="card-front">
+                            <figure>
+                                <div class="img-bg"></div>
+                                <img src="img/foto30.jpg" alt="Brohm Lake">
+                                <figcaption>Sadə kart</figcaption>
+                            </figure>
+
+        
+                            <ul>
+                                <li>10-Gün 20 AZN</li>
+                                <li>1-Ay 50 AZN</li>
+                                <li>Müddeti 1-Ay</li>
+                                <li>   -    </li>
+                                <li>   -    </li>
+                            </ul>
+                            </div>
+        
+                            <div class="card-back">
+                            <figure>
+                                <div class="img-bg"></div>
+                                <img src="img/foto30.jpg" alt="Brohm Lake">
+                            </figure>
+        
+                            <button class="optain">Əldə et</button>
+        
+                            <div class="design-container">
+                                <span class="design design--1"></span>
+                                <span class="design design--2"></span>
+                                <span class="design design--3"></span>
+                                <span class="design design--4"></span>
+                                <span class="design design--5"></span>
+                                <span class="design design--6"></span>
+                                <span class="design design--7"></span>
+                                <span class="design design--8"></span>
+                            </div>
+                            </div>
+        
+                        </div>
+                        </div>
+                        <div class="flip-card-container" style="--hue: 170">
+                        <div class="flip-card">
+        
+                            <div class="card-front">
+                            <figure>
+                                <div class="img-bg"></div>
+                                <img src="img/foto28.jpg" alt="Image 2">
+                                <figcaption>Gümüş kart</figcaption>
+                            </figure>
+        
+                            <ul>
+                                <li>10-Gün 20 AZN</li>
+                                <li>1-Ay 50 AZN</li>
+                                <li>1-il 300 AZN</li>
+                                <li>1-il/aylıq ödeniş 30 AZN</li>
+                                <li>Müddeti 1-il</li>
+                            </ul>
+                            </div>
+        
+                            <div class="card-back">
+                            <figure>
+                                <div class="img-bg"></div>
+                                <img src="img/foto28.jpg" alt="image-2">
+                            </figure>
+        
+                            <button class="optain1">Əldə et</button>
+        
+                            <div class="design-container">
+                                <span class="design design--1"></span>
+                                <span class="design design--2"></span>
+                                <span class="design design--3"></span>
+                                <span class="design design--4"></span>
+                                <span class="design design--5"></span>
+                                <span class="design design--6"></span>
+                                <span class="design design--7"></span>
+                                <span class="design design--8"></span>
+                            </div>
+                            </div>
+        
+                        </div>
+                        </div>
+                        <!-- /flip-card-container -->
+        
+                        <!-- flip-card-container -->
+                        <div class="flip-card-container" style="--hue: 350">
+                        <div class="flip-card">
+        
+                            <div class="card-front">
+                            <figure>
+                                <div class="img-bg"></div>
+                                <img src="img/foto27.jpg" alt="Brohm Lake">
+                                <figcaption>Qızıl kart</figcaption>
+                            </figure>
+        
+                            <ul>
+                                <li>1-Ay 50 AZN</li>
+                                <li>1-il 300 AZN</li>
+                                <li>3-il 800 AZN</li>
+                                <li>3-il/aylıq ödeniş 20 AZN</li>
+                                <li>Müddeti 3-il</li>
+                            </ul>
+                            </div>
+        
+                            <div class="card-back">
+                            <!-- only if the image is necessary -->
+                            <figure>
+                                <div class="img-bg"></div>
+                                <img src="img/foto27.jpg" alt="Brohm Lake">
+                            </figure>
+        
+                            <button class="optain2">Əldə et</button>
+        
+                            <!-- can add svg here and remove these eight spans -->
+                            <div class="design-container">
+                                <span class="design design--1"></span>
+                                <span class="design design--2"></span>
+                                <span class="design design--3"></span>
+                                <span class="design design--4"></span>
+                                <span class="design design--5"></span>
+                                <span class="design design--6"></span>
+                                <span class="design design--7"></span>
+                                <span class="design design--8"></span>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card-note ">
+                        <div class="nodes">
+                            <h5>QEYD</h5>
+                        </div>
+                        <div class="d-flex align-items-center px-3">
+                            <i class="fas fa-chevron-right mr-2 "></i>
+                            <p>Müştəri katı almaq üçün qediyatdan keçdikdən sonra 1 həftə ərzində poçta təhvil veriləcəkdir</p>
+                        </div>
+
+                        <div class="d-flex align-items-center px-3">
+                            <i class="fas fa-chevron-right mr-2"></i>
+                            <p>Kartın müddəti bitdikdən sonra kart baglnacaqdir  </p>
+                        </div>
+
+                        <div class="d-flex align-items-center px-3">
+                            <i class="fas fa-chevron-right mr-2 "></i>
+                            <p>Partniyerlərdən hər hansindasa bir prablem yaşansa və ya sizə bizim yazdığımız endirimdən ferqli endirim desələr bizzim lə əlaqə saxlayıb öz şikayətinizi bildirə bilərsiniz</p>
+                        </div>
+
+                        <div class="d-flex align-items-center px-3">
+                            <i class="fas fa-chevron-right mr-2 "></i>
+                            <p>Bizim verdiyimiz kart hava limaninda keçərli deyil!!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================ //onlayn-card ================ -->
+
+        </div>
+    </div>
+
+    <!-- ================ //home-page ================ -->
+
+     
+    <!-- ================ catagoriya ================ -->
+
+    <div class="catagoriya-section">
+        <div class="catagoriya-hover"></div>
+        <div class="-catagoriya">
+            <i id="removeCatagoria" class="fas fa-times"></i>
+            <h1>KTEGORIYA</h1>
+            <div class="d-flex justify-content-center">
+                <div class="catagoriyasearch">
+                    <input onkeyup="myFunction()" id="mysearch" type="text" placeholder="Search">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+            <div class="catagoriya-text">
+                <div class="catagoriya-ul">
+                    <h5>Restoran</h5>
+                    <ul id="menyu1" class="menyu">
+                   
+                    </ul>
+                </div>
+    
+                <div class="catagoriya-ul">
+                    <h5>Əyləncə</h5>
+                    <ul id="menyu2" class="menyu">
+                   
+                    </ul>
+                </div>
+    
+                <div class="catagoriya-ul">
+                    <h5>Şopping</h5>
+                    <ul id="menyu3" class="menyu">
+                        
+                    </ul>
+                </div>
+            </div>        
+        </div>
+        
+    </div>
+
+    <!-- ================ //catagoriya ================ -->
+
+
+            
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
